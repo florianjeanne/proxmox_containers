@@ -13,6 +13,6 @@ do
     -memory 512 \
     -swap 1 \
     -storage local-lvm \
-    -password Iroise29 \
+    -password pass \
     -net0 name=eth0,bridge=vmbr1,gw=192.168.1.254,ip=192.168.1.$i/24,type=veth
 done
